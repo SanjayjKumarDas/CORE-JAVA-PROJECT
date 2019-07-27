@@ -55,7 +55,6 @@ public class ReadFile {
 			out.readFile(arr);
 			out.displayIdDetails(arr, id);
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} finally {
 			input.close();
